@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Блог</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <ul>
+        <li><a href="{{ url_for('index') }}">Главная</a></li>
+        <li><a href="{{ url_for('blog') }}">Блог</a></li>
+        <li><a href="{{ url_for('contacts') }}">Контакты</a></li>
+    </ul>
+    <h1 style="color: #DB7093;">Добро пожаловать в блог</h1>
+    <p style="color: #DB7093;">Здесь будет контент блога.</p>
+</body>
+</html>
